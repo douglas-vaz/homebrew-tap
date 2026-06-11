@@ -17,8 +17,9 @@ cask "llm-ground-zero" do
   ]
 
   caveats <<~EOS
-    This app is not code-signed. If macOS blocks it, reinstall with:
-      brew reinstall --cask --no-quarantine llm-ground-zero
+    This app is not code-signed, so macOS Gatekeeper will block it on
+    first launch. Allow it with:
+      xattr -dr com.apple.quarantine "/Applications/LLM Ground Zero.app"
 
     The dashboard reads data set up by the llm-ground-zero CLI tooling.
     For shared agent memory and usage tracking, also run:
