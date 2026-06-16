@@ -7,7 +7,7 @@ cask "llm-ground-zero" do
   desc "Shared memory and usage dashboard for CLI coding agents"
   homepage "https://github.com/douglas-vaz/llm-ground-zero"
 
-  depends_on macos: :big_sur
+  depends_on macos: :monterey
 
   app "LLM Ground Zero.app"
 
