@@ -1,6 +1,6 @@
 cask "llm-ground-zero" do
-  version "0.3.1"
-  sha256 "9c63bcc57e1b9f59d6b089b4667c77c8e61f994c4b06604ad8ddb060d898de1d"
+  version "0.3.3"
+  sha256 "ef7ae2cdca607b855c8374a58da3bbe37a8205b79aab98c1858fcc3ba1043d0f"
 
   url "https://github.com/douglas-vaz/llm-ground-zero/releases/download/v#{version}/llm-ground-zero-#{version}-universal.dmg"
   name "LLM Ground Zero"
