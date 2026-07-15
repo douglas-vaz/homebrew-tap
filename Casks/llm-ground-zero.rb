@@ -1,10 +1,10 @@
 cask "llm-ground-zero" do
-  version "0.2.0"
-  sha256 "749e2ac716f920ad9cdfdab61189fb7c7edaad796333d1aad58acd37dc6a9438"
+  version "0.3.0"
+  sha256 "6d28118ccaa9d8e21d7744db017eba58f8d77522300cc3a3d423113835491fe7"
 
   url "https://github.com/douglas-vaz/llm-ground-zero/releases/download/v#{version}/llm-ground-zero-#{version}-universal.dmg"
   name "LLM Ground Zero"
-  desc "Local AI usage advisor and shared memory for CLI coding agents"
+  desc "Local AI usage advisor, token savings, and shared memory for CLI coding agents"
   homepage "https://github.com/douglas-vaz/llm-ground-zero"
 
   depends_on macos: :monterey
