@@ -1,6 +1,6 @@
 cask "llm-ground-zero" do
-  version "0.3.3"
-  sha256 "ef7ae2cdca607b855c8374a58da3bbe37a8205b79aab98c1858fcc3ba1043d0f"
+  version "0.3.4"
+  sha256 "99c1f6f794dc985e43b46db5329de1f62e61454140abc889fc64ea8da6867c5f"
 
   url "https://github.com/douglas-vaz/llm-ground-zero/releases/download/v#{version}/llm-ground-zero-#{version}-universal.dmg"
   name "LLM Ground Zero"
@@ -17,10 +17,6 @@ cask "llm-ground-zero" do
   ]
 
   caveats <<~EOS
-    This app is not code-signed, so macOS Gatekeeper will block it on
-    first launch. Allow it with:
-      xattr -dr com.apple.quarantine "/Applications/LLM Ground Zero.app"
-
     The dashboard reads data set up by the llm-ground-zero CLI tooling.
     For shared agent memory and usage tracking, also run:
       git clone https://github.com/douglas-vaz/llm-ground-zero ~/llm-ground-zero
